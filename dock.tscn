@@ -1,0 +1,25 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Save" type="Button" parent="."]
+margin_right = 74.0
+margin_bottom = 20.0
+text = "Save theme for project"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RemoveDock" type="Button" parent="."]
+margin_top = 20.0
+margin_right = 157.0
+margin_bottom = 40.0
+text = "Get rid of this dock"
+__meta__ = {
+"_edit_use_anchors_": false
+}
