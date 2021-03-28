@@ -25,7 +25,7 @@ func _enter_tree():
 		theme = ThemeClass.new()
 	
 	if not theme or theme.dock_enabled:
-		dock = preload("res://addons/theme_stuff/dock.tscn").instance()
+		dock = preload("./dock.tscn").instance()
 		add_control_to_dock(DOCK_SLOT_LEFT_UL, dock)
 		dock.get_node("Save").connect("pressed", self, "_on_save_btn_clicked")
 		dock.get_node("RemoveDock").connect("pressed", self, "_on_remove_dock_btn_clicked")
