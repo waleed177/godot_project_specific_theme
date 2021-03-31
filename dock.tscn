@@ -19,7 +19,7 @@ __meta__ = {
 margin_top = 20.0
 margin_right = 157.0
 margin_bottom = 40.0
-text = "Get rid of this dock"
+text = "Hide dock"
 __meta__ = {
 "_edit_use_anchors_": false
 }
