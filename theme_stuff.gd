@@ -15,6 +15,7 @@ var settings_to_save = [
 	"interface/theme/additional_spacing"
 ]
 
+const ThemeClass = preload("./ThemeClass.gd")
 var theme: ThemeClass
 
 func _enter_tree():
